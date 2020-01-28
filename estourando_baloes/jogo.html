@@ -5,9 +5,10 @@
 
 		<title>Estourando balões</title>
 
+		<script type="text/javascript" src="jogo.js"></script>
 	</head>
 
-	<body>
+	<body onload="iniciaJogo()">
 
 		<div style="float:left; width: auto; height: 500px; background: #FFF; border: solid 1px #A2A2A2;">
 			<table border="1">
@@ -34,7 +35,8 @@
 
 			<table border="1" style="width: 140px; height: 132px;">
 				<tr>
-					<td style="background: url('imagens/cronometro.png')">
+					<td style="background: url('imagens/cronometro.png'); text-align: center;">
+						<span id = "cronometro" style="color: red; font-size: 30px;  "></span>
 					</td>
 				</tr>
 			</table>
