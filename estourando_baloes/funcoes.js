@@ -3,5 +3,4 @@ function iniciaJogo(){
 
 	window.location.href = 'jogo.html?'+ dificuldade;
 
-	alert(dificuldade);
 }
